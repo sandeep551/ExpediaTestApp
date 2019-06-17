@@ -11,6 +11,10 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class BasePresenter<V extends BaseView> {
 
     @Inject

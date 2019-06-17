@@ -13,6 +13,11 @@ import dagger.Component;
 
 import retrofit2.Retrofit;
 
+
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 @Singleton
 @Component(modules = {ContextModule.class, NetworkModule.class, SharedPreferencesModule.class})
 public interface ApplicationComponent {

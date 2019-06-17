@@ -38,6 +38,10 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class DetailsActivity extends BaseActivity implements DetailsView, OnMapReadyCallback {
 
     public static final String PLACE = "PLACE_OBJECT";

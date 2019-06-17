@@ -9,6 +9,10 @@ import dagger.Provides;
 
 import retrofit2.Retrofit;
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 @Module
 public class DetailsModule {
     private DetailsView mView;

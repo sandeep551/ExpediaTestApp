@@ -14,6 +14,10 @@ import com.seattle.expedia_test_app.injection.component.ApplicationComponent;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public abstract class BaseActivity extends AppCompatActivity {
     private ProgressDialog mProgressDialog;
     private Unbinder unbinder;

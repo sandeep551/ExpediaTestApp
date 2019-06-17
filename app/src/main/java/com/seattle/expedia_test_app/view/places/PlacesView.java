@@ -5,6 +5,10 @@ import com.seattle.expedia_test_app.view.base.BaseView;
 
 import java.util.List;
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 
 public interface PlacesView extends BaseView {
 

@@ -21,6 +21,11 @@ import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
+
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class PlacesPresenter extends BasePresenter<PlacesView> {
 
     private static final String TAG = PlacesPresenter.class.getSimpleName() + "TAG";

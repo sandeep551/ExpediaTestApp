@@ -9,6 +9,23 @@ def android_support_version = "27.1.1"
 def glide_version = "4.7.1"
 
 android {
+
+    signingConfigs {
+        release {
+            keyAlias 'expedia'
+            keyPassword 'expedia'
+            storeFile file('./key/expedia')
+            storePassword 'expedia'
+        }
+        debug {
+            keyAlias 'expedia'
+            keyPassword 'expedia'
+            storeFile file('./key/expedia')
+            storePassword 'expedia'
+        }
+
+    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.seattle.expedia"
@@ -22,8 +39,12 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {

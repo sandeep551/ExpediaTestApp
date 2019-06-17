@@ -5,6 +5,10 @@ import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class BestPhoto implements Parcelable {
 
 	@SerializedName("prefix")

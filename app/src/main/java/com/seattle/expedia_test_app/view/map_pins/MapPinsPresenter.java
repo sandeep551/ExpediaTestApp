@@ -17,6 +17,10 @@ import java.util.Map;
 import javax.inject.Inject;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class MapPinsPresenter extends BasePresenter<MapPinsView> {
 
     private Context mContext;

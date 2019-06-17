@@ -20,6 +20,10 @@ import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class DetailsPresenter extends BasePresenter<DetailsView> implements Observer<Venue> {
 
     private static final String LIST_FAV_IDS = "LIST_FAV_IDS";

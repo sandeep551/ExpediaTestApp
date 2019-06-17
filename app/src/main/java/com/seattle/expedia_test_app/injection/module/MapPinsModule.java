@@ -6,6 +6,11 @@ import com.seattle.expedia_test_app.view.map_pins.MapPinsView;
 import dagger.Module;
 import dagger.Provides;
 
+
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 @Module
 public class MapPinsModule {
     private MapPinsView mView;

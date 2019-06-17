@@ -24,6 +24,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.Holder> {
 
     private List<Venue> mPlacesList = new ArrayList<>();

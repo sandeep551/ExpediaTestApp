@@ -7,6 +7,11 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class Venue implements Parcelable {
 
 	@SerializedName("canonicalUrl")

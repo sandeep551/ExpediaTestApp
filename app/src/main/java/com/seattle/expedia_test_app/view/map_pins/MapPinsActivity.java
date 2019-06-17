@@ -27,6 +27,10 @@ import java.util.Map;
 import javax.inject.Inject;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class MapPinsActivity extends BaseActivity implements MapPinsView, OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     public static final String PLACES = "PLACES_LIST";

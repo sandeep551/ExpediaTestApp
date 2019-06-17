@@ -34,6 +34,10 @@ import com.seattle.expedia_test_app.view.map_pins.MapPinsActivity;
 import com.seattle.expedia_test_app.view.places.adapter.PlacesAdapter;
 
 
+/**
+ * Created By Sandeep Rai on 2019-06-16
+ */
+
 public class PlacesActivity extends BaseActivity implements PlacesView {
 
     @Inject
